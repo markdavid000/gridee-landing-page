@@ -82,7 +82,7 @@ export default function WhyChoose() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-3 gap-10 lg:gap-12 items-start">
           {/* Left */}
-          <div className="reveal-left col-span-2">
+          <div className="reveal-left col-span-1 md:col-span-2">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4 headline-3d text-slate-900">
               Why Choose Gridee's Solar Solutions
             </h2>
@@ -157,7 +157,7 @@ export default function WhyChoose() {
           </div>
 
           {/* Right — main image changes on thumb click */}
-          <div className="reveal-right delay-100 order-1 lg:order-2">
+          <div className="reveal-right delay-100 order-1 lg:order-2 w-full">
             <div className="rounded-2xl sm:rounded-3xl overflow-hidden h-72 sm:h-96 lg:h-[520px] w-full tactile-3d">
               <img
                 key={activeImg}

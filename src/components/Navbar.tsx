@@ -57,7 +57,7 @@ export default function Navbar() {
 
         {/* CTA + mobile hamburger */}
         <div className="flex items-center gap-3">
-          <button className="bg-primary text-black px-4 sm:px-6 py-2 rounded-full font-bold text-xs sm:text-sm hover:scale-105 transition-transform icon-3d">
+          <button className="hidden md:block bg-primary text-black px-4 sm:px-6 py-2 rounded-full font-bold text-xs sm:text-sm hover:scale-105 transition-transform icon-3d">
             Get Started
           </button>
           {/* Hamburger */}
@@ -88,7 +88,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div
         className={`md:hidden mx-3 mt-2 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transition-all duration-300 ${
-          menuOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
+          menuOpen ? "max-h-[330px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         {links.map((l) => (
@@ -101,6 +101,9 @@ export default function Navbar() {
             {l.label}
           </a>
         ))}
+        {/* <button className="bg-primary text-black px-4 sm:px-6 py-4 w-[300px] rounded-full font-bold text-xs sm:text-sm hover:scale-105 transition-transform icon-3d">
+          Get Started
+        </button> */}
       </div>
     </header>
   );

@@ -75,7 +75,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <div className="text-white">
           {/* Stars */}
-          <div className="flex items-center gap-2 mb-5">
+          <div className="flex items-center gap-2 mb-5 mt-10 sm:mt-0">
             <span className="text-primary text-sm">★★★★★</span>
             <span className="text-xs sm:text-sm font-medium text-white/90">
               Rated 4.9/5 by 10k+ Customers
@@ -138,7 +138,7 @@ export default function Hero() {
             </button>
             <a
               href="#how-it-works"
-              className="glass-effect text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-white/20 transition-colors text-sm sm:text-base"
+              className="glass-effect text-center text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-white/20 transition-colors text-sm sm:text-base"
             >
               How It Works
             </a>
