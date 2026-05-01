@@ -1,12 +1,12 @@
 import { useRef } from "react";
 import { useReveal } from "../hooks/useReveal";
 
-const stats = [
-  { label: "Landlords Registered", value: "100+" },
-  { label: "Cities Covered", value: "15+" },
-  { label: "Revenue Shares Paid Out", value: "₦32M+" },
-  { label: "Customer Satisfaction", value: "98%" },
-];
+// const stats = [
+//   { label: "Landlords Registered", value: "100+" },
+//   { label: "Cities Covered", value: "15+" },
+//   { label: "Revenue Shares Paid Out", value: "₦32M+" },
+//   { label: "Customer Satisfaction", value: "98%" },
+// ];
 
 const socialProof = [
   {
