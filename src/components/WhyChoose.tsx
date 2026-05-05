@@ -92,24 +92,30 @@ export default function WhyChoose() {
               USSD.
             </p>
 
-            <button className="bg-primary text-black px-6 sm:px-7 py-3 rounded-full font-bold flex items-center gap-3 hover:gap-5 transition-all mb-8 sm:mb-10 icon-3d text-sm">
-              Get Started
-              <div className="w-6 h-6 sm:w-7 sm:h-7 bg-black rounded-full flex items-center justify-center flex-shrink-0">
-                <svg
-                  className="h-3 w-3 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
-              </div>
-            </button>
+            <div className="flex">
+              <a
+                href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+                target="_blank"
+                className="bg-primary text-black px-6 sm:px-7 py-3 rounded-full font-bold flex items-center gap-3 hover:gap-5 transition-all mb-8 sm:mb-10 icon-3d text-sm"
+              >
+                Get Started
+                <div className="w-6 h-6 sm:w-7 sm:h-7 bg-black rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg
+                    className="h-3 w-3 text-primary"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={3}
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
 
             {/* Mini feature cards */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">

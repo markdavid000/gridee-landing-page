@@ -43,24 +43,30 @@ export default function DualAudience() {
               advanced smart metering, high-efficiency panels, and transparent
               on-chain management, we make energy affordable for everyone.
             </p>
-            <button className="bg-primary text-black px-7 py-3 rounded-full font-bold flex items-center gap-3 hover:gap-5 transition-all icon-3d text-sm">
-              Get Started
-              <div className="w-7 h-7 bg-black rounded-full flex items-center justify-center">
-                <svg
-                  className="h-3 w-3 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
-              </div>
-            </button>
+            <div className="flex">
+              <a
+                href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+                target="_blank"
+                className="bg-primary text-black px-7 py-3 w-auto rounded-full font-bold flex items-center gap-3 hover:gap-5 transition-all icon-3d text-sm"
+              >
+                Get Started
+                <div className="w-7 h-7 bg-black rounded-full flex items-center justify-center">
+                  <svg
+                    className="h-3 w-3 text-primary"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={3}
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
           </div>
 
           {/* Right — 3-card photo grid (1 wide + 2 equal), Image 3 pattern */}

@@ -28,9 +28,13 @@ export default function CTA() {
             clean, sustainable energy.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-            <button className="bg-primary text-black px-8 sm:px-10 py-3 sm:py-4 rounded-full font-bold w-full sm:w-auto hover:scale-105 transition-transform icon-3d text-sm sm:text-base">
+            <a
+              href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+              target="_blank"
+              className="bg-primary text-black px-8 sm:px-10 py-3 sm:py-4 rounded-full font-bold w-full sm:w-auto hover:scale-105 transition-transform icon-3d text-sm sm:text-base"
+            >
               Get Started
-            </button>
+            </a>
             {/* <button className="glass-effect text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full font-bold w-full sm:w-auto hover:bg-white/20 transition-colors text-sm sm:text-base">
               WhatsApp Us
             </button> */}

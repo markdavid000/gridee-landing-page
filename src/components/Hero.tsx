@@ -120,7 +120,11 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-6">
-            <button className="bg-primary text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold flex items-center justify-center gap-3 hover:gap-5 transition-all icon-3d text-sm sm:text-base">
+            <a
+              href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+              target="_blank"
+              className="bg-primary text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold flex items-center justify-center gap-3 hover:gap-5 transition-all icon-3d text-sm sm:text-base"
+            >
               Get Started
               <svg
                 className="h-4 w-4 sm:h-5 sm:w-5"
@@ -135,7 +139,7 @@ export default function Hero() {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 />
               </svg>
-            </button>
+            </a>
             <a
               href="#how-it-works"
               className="glass-effect text-center text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-white/20 transition-colors text-sm sm:text-base"

@@ -57,9 +57,13 @@ export default function Navbar() {
 
         {/* CTA + mobile hamburger */}
         <div className="flex items-center gap-3">
-          <button className="hidden md:block bg-primary text-black px-4 sm:px-6 py-2 rounded-full font-bold text-xs sm:text-sm hover:scale-105 transition-transform icon-3d">
+          <a
+            href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+            target="_blank"
+            className="hidden md:block bg-primary text-black px-4 sm:px-6 py-2 rounded-full font-bold text-xs sm:text-sm hover:scale-105 transition-transform icon-3d"
+          >
             Get Started
-          </button>
+          </a>
           {/* Hamburger */}
           <button
             className="md:hidden flex flex-col gap-1.5 p-1"

@@ -113,7 +113,8 @@ export default function HowItWorks() {
               already have.
             </p>
             <a
-              href="#"
+              href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+              target="_blank"
               className="inline-flex items-center gap-2 font-bold text-sm border-b-2 border-primary pb-1 w-fit hover:text-primary transition-colors"
             >
               Get Started
