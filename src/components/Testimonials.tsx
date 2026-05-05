@@ -68,6 +68,7 @@ export default function TrustProof() {
     <section
       ref={ref as React.RefObject<HTMLElement>}
       className="py-16 sm:py-24 bg-white"
+      id="testimonials"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Upper — credentials (Image 5 pattern) */}
