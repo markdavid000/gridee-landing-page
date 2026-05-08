@@ -58,7 +58,7 @@ export default function Navbar() {
         {/* CTA + mobile hamburger */}
         <div className="flex items-center gap-3">
           <a
-            href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+setting-fairly&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+book-entire&type=phone_number&app_absent=0"
             target="_blank"
             className="hidden md:block bg-primary text-black px-4 sm:px-6 py-2 rounded-full font-bold text-xs sm:text-sm hover:scale-105 transition-transform icon-3d"
           >

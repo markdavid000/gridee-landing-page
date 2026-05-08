@@ -94,7 +94,7 @@ export default function WhyChoose() {
 
             <div className="flex">
               <a
-                href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+setting-fairly&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+book-entire&type=phone_number&app_absent=0"
                 target="_blank"
                 className="bg-primary text-black px-6 sm:px-7 py-3 rounded-full font-bold flex items-center gap-3 hover:gap-5 transition-all mb-8 sm:mb-10 icon-3d text-sm"
               >
