@@ -6,7 +6,7 @@ import Problem from "./components/Problem";
 import WhyChoose from "./components/WhyChoose";
 import InterfacePreview from "./components/InterfacePreview";
 import HowItWorks from "./components/HowItWorks";
-import TokenEconomics from "./components/TokenEconomics";
+// import TokenEconomics from "./components/TokenEconomics";
 import DualAudience from "./components/DualAudience";
 import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
