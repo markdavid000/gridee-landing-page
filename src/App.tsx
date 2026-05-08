@@ -25,7 +25,7 @@ export default function App() {
       <WhyChoose />
       <InterfacePreview />
       <HowItWorks />
-      <TokenEconomics />
+      {/* <TokenEconomics /> */}
       <DualAudience />
 
       {/* ── Unchanged from original ── */}

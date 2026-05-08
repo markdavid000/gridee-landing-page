@@ -29,7 +29,7 @@ export default function CTA() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <a
-              href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+              href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+setting-fairly&type=phone_number&app_absent=0"
               target="_blank"
               className="bg-primary text-black px-8 sm:px-10 py-3 sm:py-4 rounded-full font-bold w-full sm:w-auto hover:scale-105 transition-transform icon-3d text-sm sm:text-base"
             >

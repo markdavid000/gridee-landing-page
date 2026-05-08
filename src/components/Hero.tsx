@@ -121,7 +121,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-3 mb-6">
             <a
-              href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+              href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+setting-fairly&type=phone_number&app_absent=0"
               target="_blank"
               className="bg-primary text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold flex items-center justify-center gap-3 hover:gap-5 transition-all icon-3d text-sm sm:text-base"
             >

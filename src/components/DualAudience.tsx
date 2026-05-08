@@ -45,7 +45,7 @@ export default function DualAudience() {
             </p>
             <div className="flex">
               <a
-                href="http://wa.me/+14155238886?text=join%20sweet-magnet"
+                href="https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+setting-fairly&type=phone_number&app_absent=0"
                 target="_blank"
                 className="bg-primary text-black px-7 py-3 w-auto rounded-full font-bold flex items-center gap-3 hover:gap-5 transition-all icon-3d text-sm"
               >
